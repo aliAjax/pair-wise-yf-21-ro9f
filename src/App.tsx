@@ -1,4 +1,5 @@
 import "./styles.css";
+import SymmetryStudio from "./components/SymmetryStudio";
 
 const project = {
   "sourceNo": 2,
@@ -100,6 +101,8 @@ function App() {
           </div>
         </section>
       </section>
+
+      <SymmetryStudio />
 
       <section className="panel">
         <div className="heading">
